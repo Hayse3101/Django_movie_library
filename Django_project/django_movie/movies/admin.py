@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.utils.safestring import mark_safe
 from ckeditor_uploader.widgets import CKEditorUploadingWidget
 
-from .models import Category, Genre, Movie, MovieShorts, Actor, Rating, RatingStar, Reviews
+from .models import Category, Genre, Movie, MovieShots, Actor, Rating, RatingStar, Reviews
 
 
 class MovieAdminForm(forms.ModelForm):
@@ -30,7 +30,7 @@ class ReviewInline(admin.TabularInline):
 
 
 class MovieShotsInline(admin.TabularInline):
-    model = MovieShorts
+    model = MovieShots
     extra = 1
     readonly_fields = ("get_image",)
 
@@ -133,10 +133,10 @@ class ActorAdmin(admin.ModelAdmin):
 @admin.register(Rating)
 class RatingAdmin(admin.ModelAdmin):
     """Рейтинг"""
-    list_display = ("star", "ip")
+    list_display = ("star", "movie", "ip")
 
 
-@admin.register(MovieShorts)
+@admin.register(MovieShots)
 class MovieShotsAdmin(admin.ModelAdmin):
     """Кадры из фильма"""
     list_display = ("title", "movie", "get_image")
