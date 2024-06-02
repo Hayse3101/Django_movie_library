@@ -4,7 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c638e958-96e8-4a10-a7d0-4ac9438d6d4b" name="Changes" comment="commit and push 01.06.2024 - 21:42" />
+    <list default="true" id="c638e958-96e8-4a10-a7d0-4ac9438d6d4b" name="Changes" comment="commit and push 01.06.2024 - 21:42">
+      <change beforePath="$PROJECT_DIR$/django_movie/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movie/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_movie/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movie/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_movie/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movie/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_movie/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_movie/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр6.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/movie_shorts/кадр_1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/migrations/0002_alter_rating_movie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/templatetags/movie_tag.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/templatetags/movie_tag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movies/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/movies/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req.txt" beforeDir="false" afterPath="$PROJECT_DIR$/req.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/include/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/movies/movie_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/movies/movie_detail.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,18 +40,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Hayse3101"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hayse3101&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Hayse3101/Django_movie_library.git",
-    "accountId": "013d47f3-d578-4386-9c66-6c47c56f9898"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hayse3101/Django_movie_library.git&quot;,
+    &quot;accountId&quot;: &quot;013d47f3-d578-4386-9c66-6c47c56f9898&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -33,13 +60,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/PROJECTS/Django_movie_library/Django_project"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/PROJECTS/Django_movie_library/Django_project&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
